@@ -212,7 +212,7 @@ namespace PostCreateBot
             {
                 if (chanelname != null && posttext != null)
                 {
-
+                    ///jdgfuygdsyifgyis
                     var message = update.Message;
                     Message sentMessage = await botClient.SendTextMessageAsync(
                         chatId: message.Chat.Id,
@@ -239,7 +239,6 @@ namespace PostCreateBot
 
                 }
             }
-
             
         }
 
